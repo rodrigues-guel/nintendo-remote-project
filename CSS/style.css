@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+  	background-image: linear-gradient(to bottom, rgb(104, 3, 138), rgb(250, 2, 217));
+
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.corpo{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	margin: 0 230px;
+}
+.corpo div{
+	display: inline-block;
+	margin-right: -4px;
+	margin-top: 200px;
+}
+
+div .circulo_direcional{
+	margin-top: 275px;
+	position: absolute;
+}
+
+div .botao_direcionalv{
+	margin-top: -205px;
+	margin-left: -167.2px;
+	position: absolute;
+}
+
+div .botao_direcionalh{
+	margin-top: -170px;
+	margin-left: -202.2px;
+	position: absolute;
+}
+
+div .botoes{
+	margin-top: 210px;
+}
+div .centro{
+	position: absolute;
+	margin-left: -50px;
+	margin-top: 225px;
+}
+
+div .start{
+	position: absolute;
+	margin-top: -150px;
+	margin-left: -15px;
+}
+
+div .select{
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 50px;
+}
+
+div .xy{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 40px;
+}
+
+div .ab{
+	margin-top: 135px;
+}
+
+div .x{
+	position: absolute;
+	margin-top: 3.5px;
+	margin-left: 5px;
+}
+
+
+div .y{
+	margin-top: 3.5px;
+	margin-left: 85px;
+	position: absolute;
+}
+
+div .a{
+	margin-top: 3.5px;
+	margin-left: 85px;
+	position: absolute;
+}
+
+div .b{
+	position: absolute;
+	margin-top: 3.5px;
+	margin-left: 5px;
+}
+
+div #youtube{
+	position: hidden;
+	font-size: 25px;
+	padding: 10px 6px;
+	color: rgb(0, 0, 255);
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -25px;
+	text-align: center;
+}
+
+#youtube:hover{
+	color: rgb(0, 0, 200);
+	text-decoration: none;
+}
+
+.circulo_1{
+	display: inline-block;
+	margin-right: -4px;
+	width: 300px;
+	height: 300px;
+	background-color: rgb(200, 200, 200);
+	border-radius: 50%;
+	margin-left: 100px;
+	border: 4px solid rgb(130, 130, 130);
+	box-sizing: border-box;
+}
+
+.retangulo{
+	width: 400px;
+	height: 270px;
+	background-color: rgb(200, 200, 200);
+	position: absolute;
+	margin: 0 -150px;
+	border-top: 4px solid rgb(130, 130, 130);
+}
+
+.circulo_direcional{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: rgb(180, 180, 180);
+	position: absolute;
+	margin: -225px;
+}
+
+.botoes{
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	background-color: rgb(180, 180, 180);
+	position: absolute;
+	margin: 110px;
+}
+
+
+.botao_direcionalv{
+	width: 35px;
+	height: 105px;
+	border-radius: 10px;
+	background-color: rgb(50, 50, 50);
+}
+
+.botao_direcionalh{
+	width: 105px;
+	height: 35px;
+	border-radius: 10px;
+	background-color: rgb(50, 50, 50);
+}
+
+
+.centro{
+	width: 150px;
+	height: 35px;
+	background-color: rgb(180, 180, 180);
+	border-radius: 50px;
+}
+
+.start{
+	 width: 15px;
+	 height: 50px;
+	 background-color: rgb(50, 50, 50);
+	 border-radius: 20px;
+	 transform: rotate(46.666deg);
+}
+
+.select{
+	width: 15px;
+	height: 50px;
+	background-color: rgb(50, 50, 50);
+	border-radius: 20px;
+	transform: rotate(46.666deg);
+}
+
+.xy{
+	width: 140px;
+	height: 57.2px;
+	background-color: rgb(130, 130, 130);
+	border-radius: 30px;
+	transform: rotate(140deg);
+}
+
+.ab{
+	width: 140px;
+	height: 57.2px;
+	background-color: rgb(130, 130, 130);
+	border-radius: 30px;
+	transform: rotate(140deg);
+	margin-left: 110px;
+}
+
+.x{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(0, 0, 255);
+	border-radius: 50%;
+	transform: rotate(220deg);
+	text-align: center;
+
+}
+.x:hover{
+	width: 48px;
+	height: 48px;
+	background-color: rgb(0, 0, 200);
+}
+
+.y{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(0, 255, 0);
+	border-radius: 50%;
+}
+.y:hover{
+	width: 48px;
+	height: 48px;
+	background-color: rgb(0, 200, 0);
+}
+
+.a{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(255, 255, 0);
+	border-radius: 50%;
+}
+.a:hover{
+	width: 48px;
+	height: 48px;
+	background-color: rgb(200, 200, 0);
+}
+
+.b{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(255, 0, 0);
+	border-radius: 50%;
+}
+.b:hover{
+	width: 48px;
+	height: 48px;
+	background-color: rgb(200, 0, 0);
+}
